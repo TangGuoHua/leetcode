@@ -1,45 +1,65 @@
 package com.leetcode.s307;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-public class Solution {
-  public List<Integer> countSmaller(int[] nums) {
-    List<Integer> rst = new ArrayList<>();
+class Solution{
+    int[] freq = null;
+    int[] sum = null;
+    int n = 0; 
+    public List<Integer> countSmaller(int[] nums) {
+        // calculate the rank of each number
+        int id = 0; 
+        
+        Set<Integer> set = new HashSet<>();
+        for(int num : nums){
+            set.add(num);
+        }
+        List<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i < list.size(); i++){
+            map.put(list.get(i), i);
+        }
+        // 
+        n = list.size();
+        freq = new int[n];
+        sum = new int[n+1];
+        
+        List<Integer> rst = new ArrayList<>();
+        for(int i = nums.length -1; i >= 0; i--){
+            // calculate the freq of rank
+            int rank = map.get(nums[i]);
+            update(rank, 1);
+            rst.add(getRange(rank));
+            // get the freq of current rank
+        }
+        Collections.reverse(rst);
+        return rst;
+    }
 
-    return rst;
-  }
-}
-
-class Fenwick{
-  int[] sum = null;
-  int[] nums = null;
-  int n = 0;
-  public Fenwick(int[] A){
-     n = A.length;
-    sum = new int[n+1];
-    nums = new int[n];
-    for(int i = 0; i < n; i++){
-      add(i, A[i]);
+    private int getRange(int x){
+        int rst = 0; 
+        while(x > 0){
+            rst += sum[x];
+            x -= lowbit(x);
+        }
+        return rst;
     }
-  }
-  public void add(int x, int delta){
-    nums[x] += delta;
-    x = x+1;
-    while(x <= n){
-      sum[x] += delta;
-      x += lowbit(x);
+    private void update(int index, int delta){
+        freq[index] += delta;
+        index = index + 1; 
+        while( index <= n){
+            sum[index] += delta;
+            index += lowbit(index);
+        }
     }
-  }
-  public int getSum(int i){
-    int rst = 0;
-    while( i > 0){
-      rst += sum[i];
-      i -= lowbit(i);
+    private int lowbit(int x){
+        return x&(-x);
     }
-    return rst;
-  }
-  private int lowbit(int x){
-    return x&(-x);
-  }
 }
