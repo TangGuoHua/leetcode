@@ -41,4 +41,26 @@ public class Solution {
     }
     return result;
   }
+  
+  public int binarySeach(int[] nums, int left, int right, int key) {
+	  
+	  int mid = left + (right - left)/2;
+	  while(left <= right) {
+		  mid = left + (right - left)/2;
+		  
+		  if( nums[mid] >= key) {
+			  right = mid - 1;
+		  }
+		  else {
+			  left = mid + 1;
+		  }
+	  }
+	  
+	  // 2 4 4 6 8 8
+	  
+//	  System.out.println("left="+left+"; right="+right+"; mid="+mid);
+	  return left;
+	  
+  }
+  
 }
