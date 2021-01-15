@@ -1,0 +1,165 @@
+/trunk/au-V4/au-V4-service
+/trunk/au-eccompensation/au-eccompensation-testbase
+/trunk/idl-wsapicommon/idl-wsapicommon-service
+/trunk/au-picklist/au-picklist-ui
+/trunk/au-dataretention/au-dataretention-api
+/trunk/au-istuserdata/au-istuserdata-service
+/trunk/au-attendancerecording/au-attendancerecording-service
+/trunk/au-cdp/au-cdp-wsapi_v1
+/trunk/idl-wsapicore/idl-wsapicore-service
+/trunk/au-istpm/au-istpm-service
+/trunk/au-positionrecruitingintegration/au-positionrecruitingintegration-service
+/trunk/idl-legacyanalytics/idl-legacyanalytics-service
+/trunk/au-employeeprofilepoc/au-employeeprofilepoc-testbase
+/trunk/au-mdfworkflow/au-mdfworkflow-testbase
+/trunk/au-mdfworkflow/au-mdfworkflow-uitestbase
+/trunk/au-positionmanagement/au-positionmanagement-service
+/trunk/au-authentication/au-authentication-legacy
+/trunk/au-ecloc/au-ecloc-service
+/trunk/idl-ecmigration/idl-ecmigration-service
+/trunk/au-sm/au-sm-web
+/trunk/au-ruleengine/au-ruleengine-testbase
+/trunk/au-istmdf/au-istmdf-service
+/trunk/au-legacymodules/au-legacymodules-service
+/trunk/au-entityorgchart/au-entityorgchart-service
+/trunk/au-mdfworkflow/au-mdfworkflow-ui
+/trunk/au-legacydatamodel/au-legacydatamodel-successiondatamodel
+/trunk/au-mdfdataio/au-mdfdataio-testbase
+/trunk/au-genericobject/au-genericobject-testbase
+/trunk/au-covaluehelpx/au-covaluehelpx-testbase
+/trunk/au-comdfx/au-comdfx-testbase
+/trunk/au-workstructure/au-workstructure-service
+/trunk/au-authentication/au-authentication-service
+/trunk/au-absencemanagementlocalization/au-absencemanagementlocalization-ditTest
+/trunk/au-employeecentral/au-employeecentral-testbase
+/trunk/au-genericobject/au-genericobject-service
+/trunk/idl-bepersistence/idl-bepersistence-testbase
+/trunk/au-documentgeneration/au-documentgeneration-service
+/trunk/au-ecwsapi/au-ecwsapi-service
+/trunk/au-permissionapp/au-permissionapp-ui
+/trunk/au-ratingext/au-ratingext-service
+/trunk/idl-tenantmanagement/idl-tenantmanagement-service
+/trunk/idl-dms/idl-dms-service
+/trunk/idl-permission/idl-permission-service
+/trunk/au-personsearch/au-personsearch-service
+/trunk/au-V4/au-V4-ui
+/trunk/au-dataretention/au-dataretention-service
+/trunk/au-extensioncenter/au-extensioncenter-testbase
+/trunk/au-benefitsmanagement/au-benefitsmanagement-ditTest
+/trunk/au-personandemployment/au-personandemployment-service
+H A D	dependencies.gradle	221 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-userapplication/au-userapplication-service
+H A D	dependencies.gradle	117 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-ise/au-ise-service
+H A D	dependencies.gradle	251 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-eccompensation/au-eccompensation-service
+H A D	dependencies.gradle	109 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-mdfeditadapter/au-mdfeditadapter-odata-testbase
+H A D	dependencies.gradle	285 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-mdfeditadapter/au-mdfeditadapter-testbase
+H A D	dependencies.gradle	283 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-permissionapp/au-permissionapp-service
+H A D	dependencies.gradle	51 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-userapplication/au-userapplication-api
+H A D	dependencies.gradle	83 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-godit/idl-godit-api
+H A D	dependencies.gradle	306 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-permissioncollector/idl-permissioncollector-service
+H A D	dependencies.gradle	219 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-permissiondg/idl-permissiondg-service
+H A D	dependencies.gradle	62 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-wsapi_v1/idl-wsapi_v1-service
+H A D	dependencies.gradle	216 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-paaeconfigservice/au-paaeconfigservice-service
+H A D	dependencies.gradle	309 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-usermanagement/au-usermanagement-legacy
+H A D	dependencies.gradle	169 // testCompile: au
+170 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-homepage3/au-homepage3-service
+H A D	dependencies.gradle	249 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-payroll/au-payroll-service
+H A D	dependencies.gradle	227 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-timemanagement/au-timemanagement-ditTest
+H A D	dependencies.gradle	33 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-workflow/au-workflow-testbase
+H A D	dependencies.gradle	224 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-goalmanagement/au-goalmanagement-ui
+H A D	dependencies.gradle	121 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-dataretentionapp/au-dataretentionapp-service
+H A D	dependencies.gradle	242 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-emailframework/au-emailframework-service
+H A D	dependencies.gradle	14 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-workstructure/au-workstructure-legacyFO
+H A D	dependencies.gradle	39 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-workstructure/au-workstructure-ui
+H A D	dependencies.gradle	152 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-userapplication/au-userapplication-job
+H A D	dependencies.gradle	194 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-codomain/idl-codomain-service
+H A D	dependencies.gradle	291 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-cofoundation/idl-cofoundation-service
+H A D	dependencies.gradle	217 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-homepagecommon/au-homepagecommon-testbase
+H A D	dependencies.gradle	304 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+391 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-capabilitymanagement/au-capabilitymanagement-service
+H A D	dependencies.gradle	96 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+172 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-classicreporting/au-classicreporting-service
+H A D	dependencies.gradle	401 compile(group:'com.successfactors',name:'au-picklist-service',version:'${com.successfactors.au-picklist.version}')
+522 testRuntime(group:'com.successfactors',name:'au-picklist-service',version:'${com.successfactors.au-picklist.version}')
+/trunk/idl-odataruleengine/idl-odataruleengine-corule
+H A D	dependencies.gradle	180 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-passwordmanagement/au-passwordmanagement-ui
+H A D	dependencies.gradle	216 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-permissionadmin/au-permissionadmin-web
+H A D	dependencies.gradle	108 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-dpcsapp/au-dpcsapp-web
+H A D	dependencies.gradle	81 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-mdfdataio/au-mdfdataio-uitestbase
+H A D	dependencies.gradle	312 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-godatapurge/au-godatapurge-testbase
+H A D	dependencies.gradle	316 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-ruleengine/au-ruleengine-gorule
+H A D	dependencies.gradle	184 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-ecalert/au-ecalert-service
+H A D	dependencies.gradle	273 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-genericobject/au-genericobject-uitestbase
+H A D	dependencies.gradle	311 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-calibration/au-calibration-service
+H A D	dependencies.gradle	25 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-contingentworker/au-contingentworker-service
+H A D	dependencies.gradle	279 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-goalmanagement/au-goalmanagement-service
+H A D	dependencies.gradle	152 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-ruleengine/au-ruleengine-ui
+H A D	dependencies.gradle	190 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-comdf/idl-comdf-testbase
+H A D	dependencies.gradle	293 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-classicreporting/au-classicreporting-ui
+H A D	dependencies.gradle	52 compile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-sm/au-sm-service
+H A D	dependencies.gradle	343 testRuntime(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/idl-employeecentralodatav2/idl-employeecentralodatav2-dit
+H A D	dependencies.gradle	297 testCompile(group: 'com.successfactors', name: 'au-picklist-service', version: '${com.successfactors.au-picklist.version}')
+/trunk/au-workflow/au-workflow-service
+/trunk/au-compensationvarpay/au-compensationvarpay-service
+/trunk/au-ecalert/au-ecalert-ui
+/trunk/au-goauditreporting/au-goauditreporting-testbase
+/trunk/au-employeeprofilepoc/au-employeeprofilepoc-service
+/trunk/au-recruiting/au-recruiting-ui
+/trunk/au-cdp/au-cdp-service
+/trunk/au-workflow/au-workflow-ui
+/trunk/au-jdmng/au-jdmng-service
+/trunk/au-personandemployment/au-personandemployment-testbase
+/trunk/au-publicsector/au-publicsector-service
+/trunk/au-jdmng/au-jdmng-ui
+/trunk/au-bestpractices/au-bestpractices-service
+/trunk/au-performancemanagement/au-performancemanagement-service
+/trunk/au-permissionadmin/au-permissionadmin-ui
+/trunk/au-recruiting/au-recruiting-service
+/trunk/au-industrycostobject/au-industrycostobject-service
+/trunk/au-employeecentral/au-employeecentral-service
+/trunk/au-V4/au-V4-web
+/trunk/au-employeecentral/au-employeecentral-ui
+/trunk/build-system
