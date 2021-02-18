@@ -7,7 +7,7 @@ public class Solution {
 	public static void main(String[] args) {
 		int[] nums1 = new int[] { 1, 3 };
 		int[] nums2 = new int[] { 2 };
-
+		String.join("");
 		System.out.println("nums1 = " + Arrays.toString(nums1));
 		System.out.println("nums2 = " + Arrays.toString(nums2));
 		System.out.println("Median=[" + new Solution().findMedianSortedArrays(nums1, nums2) + "]");
