@@ -21,7 +21,7 @@ class Solution {
             System.out.println("当前处理的字符是 ： "+ c);
             // if it is oprand, accumulate it the get the number
             if(Character.isDigit(c)){
-                num += num*10 + (c - '0');
+                num = num*10 + (c - '0');
             }
             else if(c == '+' || c== '-' || c == '*' || c == '/'){
                 System.out.println("当前得到一个数字 ： "+num);
@@ -59,7 +59,7 @@ class Solution {
             result = a+b;
         }
         else if( c == '-') {
-            result = a - b;
+            result = b - a;
         }
         else if( c == '*') {
             result = a*b;
