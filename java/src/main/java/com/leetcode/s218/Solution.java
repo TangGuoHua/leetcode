@@ -26,10 +26,10 @@ class Solution {
         }
         if(to - from == 1){ // this means there is only one building
             // [lefti, righti, heighti]
-            // add left up dot
-            result.add(new ArrayList<>(){{add(buildings[from][0]);add(buildings[from][2]);}});
-            // add right botton dot
-            result.add(new ArrayList<>(){{add(buildings[from][1]);add(0);}});
+//            // add left up dot
+//            result.add(new ArrayList<>(){{add(buildings[from][0]);add(buildings[from][2]);}});
+//            // add right botton dot
+//            result.add(new ArrayList<>(){{add(buildings[from][1]);add(0);}});
             return result;
         }
         int mid = from+(to-from)/2;
